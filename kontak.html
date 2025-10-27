@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Kontak Kami - Keripik Singkong Candra</title>
+</head>
+<body>
+    <header>
+        <h1>Keripik Singkong Candra</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="tentang.html">Tentang kami</a></li>
+                <li><a href="produk.html">Produk</a></li>
+                <li><a href="kontak.html">Kontak</a></li>
+                <li><a href="galeri.html">Galeri</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Hubungi Kami</h2>
+        <p>Silahkan isi formulir berikut untuk menghubungi admin:</p>
+
+        <form action="#" method="post">
+            <label for="nama">Nama:</label><br>
+            <input type="text" id="nama" name="nama" required><br><br>
+            
+            <label for="tanggal">Tanggal Pengiriman Pesanan:</label><br>
+            <input type="date" id="tanggal" name="tanggal" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="jeniskelamin">Jenis Kelamin:</label><br>
+            <select id="jeniskelamin" name="jeniskelamin">
+                <option value="lakilaki">Laki-Laki</option>
+                <option value="perempuan">Perempuan</option>
+            </select><br><br>
+
+            <label for="kategori">Kategori:</label><br>
+            <select id="kategori" name="kategori">
+                <option value="umum">Umum</option>
+                <option value="produk">Produk</option>
+                <option value="kerjasama">Kerja Sama</option>
+                <option value="feedback">Feedback</option>
+            </select><br><br>
+            
+            <label for="file">Input file:</label>
+            <input type="file" id="file" name="file"><br><br>
+            
+            <label for="pesan">Pesan:</label><br>
+            <textarea id="pesan" name="pesan" rows="5" cols="30"></textarea><br><br>
+
+            <input type="checkbox" id="langganan" name="langganan" value="ya">
+            <label for="langganan">Saya ingin menerima newsletter</label><br><br>
+
+            <button type="submit">Kirim</button>
+            <input type="reset" value="Clear Data">
+        </form>
+    </main>
+
+    <video controls muted loop width="600">
+        <source src="Video/PROSES PEMBUATAN KERIPIK SINGKONG YANG RENYAH LAYAK UNTUK DIJUAL.mp4" type="video/mp4">
+    </video>
+
+    <footer>
+        <p>&copy; 2025 Keripik Singkong Candra. Semua hak dilindungi.</p>
+    </footer>
+</body>
+</html>
