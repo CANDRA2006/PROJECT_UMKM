@@ -112,7 +112,7 @@ Website ini fully responsive dengan breakpoint:
 
 ## 👨‍💻 Developer
 
-Project ini dikembangkan sebagai website promosi untuk Keripik Singkong Candra.
+Project ini dikembangkan sebagai keperluan tugas akhir Mata Kuliah Pemrograman WEB-I
 
 ## 📄 Lisensi
 
