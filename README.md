@@ -102,7 +102,7 @@ Website ini fully responsive dengan breakpoint:
 2. Pastikan semua file berada dalam struktur folder yang benar
 3. Buka file `index.html` di browser
 4. Atau gunakan Live Server di VS Code untuk development
-
+5. Atau bisa klik link ini agar mengetahui project-umkm-seven.vercel.app
 ## 📝 Catatan Pengembangan
 
 - Website menggunakan CDN untuk Font Awesome, pastikan ada koneksi internet
