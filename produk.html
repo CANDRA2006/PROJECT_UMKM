@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <title>Produk - Keripik Singkong Candra</title>
 </head>
 <body>
@@ -23,6 +24,67 @@
         </div>
     </header>
 
+    <div class="container">
+        <!-- Section 1: Kategori Usia Pelanggan -->
+        <div class="section">
+            <h2>🎯 Cek Kategori Usia Anda</h2>
+            <div class="age-checker">
+                <p style="color: #5a4a3a; margin-bottom: 1rem;">Masukkan usia Anda untuk mengetahui kategori pelanggan yang sesuai!</p>
+                <div class="age-input-group">
+                    <input type="number" id="ageInput" placeholder="Masukkan usia Anda" min="1" max="120">
+                    <button class="btn" onclick="checkAge()">
+                        <i class="fas fa-check-circle"></i> Cek Kategori
+                    </button>
+                </div>
+                <div id="ageResult" class="age-result"></div>
+            </div>
+        </div>
+
+        <!-- Section 2: Testimoni Pelanggan -->
+        <div class="section">
+            <h2>💬 Testimoni Pelanggan Kami</h2>
+            <p style="text-align: center; color: #5a4a3a; margin-bottom: 2rem;">
+                Dengarkan pengalaman pelanggan setia kami
+            </p>
+            <div id="testimonialContainer" class="testimonial-grid"></div>
+        </div>
+
+        <!-- Section 3: Kalkulator Belanja -->
+        <div class="section">
+            <h2>🛒 Kalkulator Belanja</h2>
+            <div class="calculator-form">
+                <form id="shoppingForm" onsubmit="calculateTotal(event)">
+                    <div class="form-group">
+                        <label for="productSelect">
+                            <i class="fas fa-shopping-bag"></i> Pilih Produk
+                        </label>
+                        <select id="productSelect" required>
+                            <option value="">-- Pilih Produk --</option>
+                            <option value="15000">Keripik Singkong Original - Rp 15.000</option>
+                            <option value="16000">Keripik Singkong Balado - Rp 16.000</option>
+                            <option value="17000">Keripik Singkong Bawang - Rp 17.000</option>
+                            <option value="18000">Keripik Singkong Keju - Rp 18.000</option>
+                            <option value="18000">Keripik Singkong Jagung - Rp 18.000</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="quantityInput">
+                            <i class="fas fa-shopping-cart"></i> Jumlah Bungkus
+                        </label>
+                        <input type="number" id="quantityInput" min="1" value="1" required>
+                    </div>
+
+                    <button type="submit" class="btn" style="width: 100%;">
+                        <i class="fas fa-calculator"></i> Hitung Total Belanja
+                    </button>
+                </form>
+
+                <div id="calculationResult" class="calculation-result"></div>
+            </div>
+        </div>
+    </div>
+    
     <section id="produk" class="section">
         <div class="container">
             <h1>Produk Keripik Singkong Candra</h1>
