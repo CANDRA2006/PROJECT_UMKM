@@ -1,308 +1,135 @@
 # 🍠 Keripik Singkong Candra
 
-Website UMKM untuk keperluan tugas akhir Mata Kuliah Pemrograman WEB-I
+Website UMKM modern untuk mempromosikan keripik singkong premium dengan 5 varian rasa. Dibangun menggunakan HTML5, CSS3, dan JavaScript murni dengan fitur interaktif dan desain responsif.
 
-## 📋 Deskripsi Project
+**🌐 Live Demo:** [project-umkm-seven.vercel.app](https://project-umkm-seven.vercel.app)
 
-Website ini merupakan platform digital untuk mempromosikan produk keripik singkong dengan berbagai varian rasa. Website ini menyediakan informasi lengkap mengenai produk, harga, galeri, formulir kontak interaktif, dan fitur-fitur JavaScript yang menarik untuk meningkatkan pengalaman pengguna.
+## ⚡ Fitur Unggulan
 
-## ✨ Fitur Utama
+### 🎯 Interaktif & Dinamis
+- **Cek Kategori Usia** - Otomatis kategorikan pelanggan (Anak/Remaja/Dewasa/Lansia) dengan tampilan warna berbeda
+- **Kalkulator Belanja** - Hitung total pembelian real-time dengan format Rupiah
+- **Testimoni Dinamis** - Tampilkan 5 review pelanggan dengan rating bintang otomatis
+- **Form Validasi** - Validasi nomor HP, email, dan tanggal secara real-time
+- **Pop-up Sukses** - Notifikasi menarik dengan animasi bounce saat form berhasil dikirim
 
-### 🏠 Halaman Beranda (index.html)
-- Hero section dengan tagline menarik
-- Grid produk unggulan dengan gambar dan deskripsi
-- Informasi kontak lengkap dengan ikon
-- Integrasi link media sosial (Facebook, Instagram, WhatsApp)
+### 📱 Halaman Lengkap
+| Halaman | Fitur Utama |
+|---------|-------------|
+| **Beranda** | Hero section, produk unggulan, info kontak + media sosial |
+| **Tentang** | Sejarah perusahaan, filosofi, dan komitmen kualitas |
+| **Produk** | Katalog + tabel harga, video proses pembuatan, 3 fitur JS interaktif |
+| **Galeri** | 6 card produk dengan hover effect dan deskripsi |
+| **Kontak** | Form lengkap (9 field) dengan validasi ketat dan feedback system |
 
-### ℹ️ Halaman Tentang (tentang.html)
-- Sejarah dan filosofi perusahaan
-- Komitmen terhadap kualitas produk
-- Informasi tentang industri keripik singkong di Indonesia
-- Galeri produk unggulan
-
-### 🛍️ Halaman Produk (produk.html)
-- **Cek Kategori Usia**: Fitur interaktif untuk mengkategorikan pelanggan berdasarkan usia
-- **Testimoni Pelanggan**: Menampilkan 5 testimoni dengan rating bintang menggunakan perulangan
-- **Kalkulator Belanja**: Menghitung total pembelian dengan format Rupiah
-- Tabel daftar produk dan harga lengkap
-- Galeri produk dengan gambar dan deskripsi detail
-- Video proses pembuatan keripik singkong
-- Informasi pemesanan dan jam operasional
-
-### 🖼️ Halaman Galeri (galeri.html)
-- Tampilan card responsif untuk setiap produk
-- Gambar proses panen singkong
-- Deskripsi singkat setiap varian
-- Efek hover interaktif
-
-### 📞 Halaman Kontak (kontak.html)
-- **Formulir Kontak Lengkap** dengan validasi:
-  - Nama Lengkap
-  - Email
-  - Nomor HP (dengan validasi format)
-  - Tanggal Pengiriman Pesanan
-  - Jenis Kelamin
-  - Kategori Pesan
-  - Upload File (opsional)
-  - Textarea untuk pesan
-  - Checkbox newsletter
-- **Validasi Form JavaScript**:
-  - Validasi nomor HP (hanya angka, 10-13 digit, dimulai dengan 0)
-  - Validasi tanggal (tidak boleh masa lampau)
-  - Validasi field wajib diisi
-- **Feedback System**:
-  - Pop-up sukses dengan animasi
-  - Pesan feedback dinamis (success/error)
-- **Tombol Clear Data**: Menghapus semua data form dengan konfirmasi
-
-## 🛠️ Teknologi yang Digunakan
-
-- **HTML5**: Struktur dan markup halaman dengan semantic elements
-- **CSS3**: 
-  - Styling modern dengan gradient dan shadow effects
-  - Flexbox dan Grid Layout
-  - Animasi dan transisi smooth
-  - Responsive design untuk semua ukuran layar
-- **JavaScript (Vanilla JS)**:
-  - DOM Manipulation
-  - Event Handling
-  - Form Validation
-  - Local Storage
-  - Dynamic Content Generation
-- **Font Awesome 6.4.0**: Icons untuk UI yang lebih menarik
-- **CDN**: Cloudflare CDN untuk Font Awesome
-
-## 📦 Produk yang Ditawarkan
-
-| No | Produk | Harga | Status |
-|----|--------|-------|--------|
-| 1 | **Keripik Singkong Original** | Rp 15.000 | Tersedia |
-| 2 | **Keripik Singkong Balado** | Rp 16.000 | Tersedia |
-| 3 | **Keripik Singkong Bawang** | Rp 17.000 | Tersedia |
-| 4 | **Keripik Singkong Keju** | Rp 18.000 | Tersedia |
-| 5 | **Keripik Singkong Jagung** | Rp 18.000 | Tersedia |
-
-## 📁 Struktur File
+## 🛠️ Tech Stack
 
 ```
-CANDRA/
-├── index.html              # Halaman utama/beranda
-├── tentang.html            # Halaman tentang kami
-├── produk.html             # Halaman produk dengan fitur interaktif
-├── galeri.html             # Halaman galeri foto
-├── kontak.html             # Halaman kontak dengan form
-├── style.css               # Stylesheet utama (global)
-├── kontak-style.css        # Stylesheet khusus halaman kontak (jika ada)
-├── script.js               # JavaScript utama
-├── kontak-script.js        # JavaScript khusus halaman kontak (jika ada)
-├── README.md               # Dokumentasi project
-├── Assets/                 # Folder gambar produk
-│   ├── Original.jpg
-│   ├── Balado.jpg
-│   ├── Bawang.jpg
-│   ├── Keju.jpg
-│   ├── Jagung.jpg
-│   └── Proses_Panen.jpg
-└── Video/                  # Folder video
-    └── PROSES PEMBUATAN KERIPIK SINGKONG...mp4
+Frontend: HTML5, CSS3 (Flexbox/Grid, Animations), Vanilla JavaScript
+Icons: Font Awesome 6.4.0
+Design: Gradient themes, smooth transitions, responsive breakpoints
+Storage: LocalStorage untuk welcome notification
 ```
 
-## 🎯 Fitur JavaScript Lengkap
+## 🍠 Produk & Harga
 
-### 1. Welcome Alert dengan Local Storage
+| Varian | Harga |
+|--------|-------|
+| Original | Rp 15.000 |
+| Balado | Rp 16.000 |
+| Bawang | Rp 17.000 |
+| Keju | Rp 18.000 |
+| Jagung | Rp 18.000 |
+
+## 💻 Konsep Pemrograman yang Diterapkan
+
+### JavaScript Features
 ```javascript
-// Notifikasi selamat datang yang hanya muncul sekali
-localStorage.setItem("welcomeShown", "true");
-```
+// 1. PERCABANGAN - Cek kategori usia
+if (umur < 13) kategori = 'Anak-anak';
+else if (umur <= 17) kategori = 'Remaja';
+else if (umur <= 60) kategori = 'Dewasa';
+else kategori = 'Lansia';
 
-### 2. Cek Kategori Usia (Percabangan)
-Fungsi untuk mengkategorikan pelanggan berdasarkan usia:
-- **Anak-anak** (< 13 tahun) - Label kuning
-- **Remaja** (13-17 tahun) - Label biru
-- **Dewasa** (18-60 tahun) - Label hijau
-- **Lansia** (> 60 tahun) - Label ungu
+// 2. PERULANGAN - Tampilkan testimoni
+for (var i = 0; i < testimoniPelanggan.length; i++) {
+    // Generate card testimoni otomatis
+}
 
-### 3. Testimoni Pelanggan (Perulangan)
-Menggunakan loop `for` untuk menampilkan array testimoni dari 5 pelanggan:
-- Nama pelanggan
-- Rating bintang (⭐)
-- Produk yang dibeli
-- Komentar/review
-- Avatar dengan inisial nama
-
-### 4. Kalkulator Belanja (Fungsi)
-```javascript
+// 3. FUNGSI - Kalkulator belanja
 function hitungTotal(harga, jumlah) {
     return harga * jumlah;
 }
-```
-Fitur meliputi:
-- Dropdown pemilihan produk
-- Input jumlah bungkus
-- Kalkulasi otomatis dengan format Rupiah
-- Tampilan detail pembelian
 
-### 5. Validasi Form Kontak
-**Validasi Nomor HP:**
-- Hanya menerima input angka
-- Panjang 10-13 digit
-- Harus dimulai dengan angka 0
-- Real-time validation
+// 4. VALIDASI FORM
+- Nomor HP: hanya angka, 10-13 digit, dimulai 0
+- Tanggal: tidak boleh masa lampau
+- Email: format valid dengan HTML5
 
-**Validasi Tanggal:**
-- Tidak boleh memilih tanggal masa lampau
-- Validasi dengan objek Date JavaScript
+// 5. LOCAL STORAGE
+localStorage.setItem("welcomeShown", "true"); // Alert hanya sekali
 
-**Validasi Field:**
-- Semua field required harus diisi
-- Email format validation (HTML5)
-- File type restriction
-
-### 6. Pop-up Sukses Dinamis
-```javascript
-function tampilkanPopupSukses(nama) {
-    // Animasi fade in dan bounce
-    // Menampilkan nama user secara dinamis
-}
+// 6. DOM MANIPULATION
+- Dynamic content generation
+- Event listeners (onclick, onsubmit, keypress)
+- Style manipulation untuk feedback
 ```
 
-### 7. Feedback System
-- Success message (hijau)
-- Error message (merah)
-- Auto scroll ke feedback
-- Animasi slide down
+## 📱 Responsive Design
 
-### 8. Clear Form Function
-- Konfirmasi sebelum menghapus
-- Reset semua field
-- Feedback temporary (2 detik)
+| Device | Lebar | Layout |
+|--------|-------|--------|
+| Desktop | >1024px | 3 kolom grid |
+| Tablet | 768-1024px | 2 kolom grid |
+| Mobile | <768px | 1 kolom, menu stack |
 
-## 🎨 Desain Responsif
+**Fitur:** Auto-resize images, flexible grid, touch-friendly buttons, optimized font sizes
 
-Website fully responsive dengan breakpoint:
+## 🚀 Cara Menjalankan
 
-| Device | Breakpoint | Fitur |
-|--------|-----------|-------|
-| Desktop | > 1024px | Layout penuh, 3 kolom grid |
-| Tablet | 768px - 1024px | 2 kolom grid |
-| Mobile | < 768px | 1 kolom, menu stack |
-| Mobile Small | < 480px | Optimized font & spacing |
+```bash
+# 1. Clone repository
+git clone <repository-url>
 
-### Responsive Features:
-- **Flexible Grid**: Grid otomatis menyesuaikan jumlah kolom
-- **Navigation**: Menu stack vertikal di mobile
-- **Forms**: Single column layout di mobile
-- **Images**: Auto resize dan maintain aspect ratio
-- **Touch Friendly**: Button dan link lebih besar di mobile
+# 2. Buka dengan browser
+# Langsung double-click index.html
 
-## 🎭 Animasi dan Efek
+# 3. Atau gunakan Live Server (VS Code)
+# Klik kanan index.html → Open with Live Server
+```
 
-### CSS Animations:
-- **fadeIn**: Untuk hasil kategori usia dan kalkulasi
-- **slideDown**: Untuk feedback messages
-- **popupBounce**: Untuk pop-up sukses
-- **iconPulse**: Untuk icon di pop-up
+## 📂 Struktur File
 
-### Hover Effects:
-- Card lift effect (translateY)
-- Image scale on hover
-- Button shadow enhancement
-- Color transitions
+```
+CANDRA/
+├── *.html          # 5 halaman (index, tentang, produk, galeri, kontak)
+├── style.css       # Styling global
+├── script.js       # JavaScript interaktif
+├── Assets/         # 6 gambar produk (.jpg)
+└── Video/          # 1 video proses pembuatan (.mp4)
+```
 
-### Transitions:
-- All interactive elements: 0.3s ease
-- Smooth color changes
-- Transform animations
+## 📞 Kontak & Media Sosial
 
-## 📞 Informasi Kontak
+**📍 Alamat:** Jl. Raya Bulakpelem No. 3, Sragi, Pekalongan, Jawa Tengah 51155  
+**📱 WhatsApp:** [+62 896-4486-9711](https://wa.me/6289644869711)  
+**📧 Email:** chandraq818@gmail.com  
+**🕒 Operasional:** Senin-Jumat (08.00-17.00), Sabtu (08.00-15.00), Minggu Tutup
 
-- **Alamat**: Jl. Raya Bulakpelem No. 3, Kelurahan Sragi, Pekalongan, Jawa Tengah 51155
-- **Telepon/WhatsApp**: +62 896-4486-9711
-- **Email**: chandraq818@gmail.com
-- **Jam Operasional**:
-  - Senin - Jumat: 08.00 - 17.00 WIB
-  - Sabtu: 08.00 - 15.00 WIB
-  - Minggu: Tutup
-
-## 🌐 Media Sosial
-
-- **Facebook**: [Keripik Candra](https://www.facebook.com/profile.php?id=100092267325609)
-- **Instagram**: [@keripik_candra](https://www.instagram.com/keripik_candra?igsh=MTVsejFvNnMwajB5cw==)
-- **WhatsApp**: [Chat Langsung](https://wa.me/6289644869711)
-
-## 🚀 Cara Menjalankan Project
-
-### Opsi 1: Direct Browser
-1. Clone atau download repository ini
-2. Pastikan semua file berada dalam struktur folder yang benar
-3. Buka file `index.html` di browser (Chrome, Firefox, Edge, Safari)
-
-### Opsi 2: Live Server (Recommended untuk Development)
-1. Buka project di VS Code
-2. Install extension "Live Server"
-3. Klik kanan pada `index.html`
-4. Pilih "Open with Live Server"
-5. Website akan otomatis refresh saat ada perubahan
-
-### Opsi 3: Online
-- Akses langsung: [project-umkm-seven.vercel.app](https://project-umkm-seven.vercel.app)
-
-## 📝 Catatan Pengembangan
-
-### Dependencies:
-- **Font Awesome 6.4.0** dari CDN Cloudflare - pastikan ada koneksi internet
-- Tidak ada external library JavaScript lain (Pure Vanilla JS)
-
-### Browser Compatibility:
-- ✅ Chrome 90+
-- ✅ Firefox 88+
-- ✅ Safari 14+
-- ✅ Edge 90+
-
-### Assets:
-- Gambar produk (JPG) disimpan di folder `Assets/`
-- Video proses pembuatan (MP4) disimpan di folder `Video/`
-- Ukuran gambar optimal: 300x200px untuk performa terbaik
-
-### Customization:
-Semua konten dapat disesuaikan:
-- **Harga produk**: Edit di HTML dan dropdown JavaScript
-- **Testimoni**: Edit array `testimoniPelanggan` di `script.js`
-- **Warna tema**: Edit CSS variables di `style.css`
-- **Konten teks**: Langsung edit di file HTML
-
-## 🔧 Fitur yang Dapat Dikembangkan
-
-- [ ] Backend integration (PHP/Node.js)
-- [ ] Database untuk menyimpan form submission
-- [ ] Shopping cart system
-- [ ] Payment gateway integration
-- [ ] Admin dashboard
-- [ ] Email notification
-- [ ] Multi-language support
-- [ ] Product search & filter
-- [ ] Customer authentication
-- [ ] Order tracking system
-
-## 👨‍💻 Developer
-
-Project ini dikembangkan sebagai keperluan tugas akhir Mata Kuliah **Pemrograman WEB-I**
-
-### Learning Outcomes:
-✅ HTML5 semantic structure  
-✅ CSS3 modern styling & animations  
-✅ JavaScript DOM manipulation  
-✅ Form validation  
-✅ Responsive web design  
-✅ Local Storage usage  
-✅ Event handling  
-✅ Conditional statements (if-else)  
-✅ Loops (for loop)  
-✅ Functions  
-✅ Arrays and Objects  
+**Social Media:**  
+[Facebook](https://www.facebook.com/profile.php?id=100092267325609) • [Instagram](https://www.instagram.com/keripik_candra) • [WhatsApp Business](https://wa.me/6289644869711)
 
 ---
 
-- Form kontak dengan validasi lengkap
-- Responsive design untuk semua device
-- Pop-up dan feedback system
+## 🎓 Learning Outcomes
+
+Project ini mencakup konsep pemrograman web:
+- ✅ HTML5 semantic & forms
+- ✅ CSS3 responsive & animations  
+- ✅ JavaScript: DOM, Events, Functions, Arrays, Loops, Conditionals
+- ✅ Form validation & LocalStorage
+- ✅ User experience & feedback system
+
+---
+
+**📝 Developed for:** Tugas Akhir Pemrograman WEB-I  
