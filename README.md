@@ -2,7 +2,7 @@
 
 Website UMKM modern untuk mempromosikan keripik singkong premium dengan 5 varian rasa. Dibangun menggunakan HTML5, CSS3, dan JavaScript murni dengan fitur interaktif dan desain responsif.
 
-**🌐 Live Demo:** [project-umkm-seven.vercel.app](https://project-umkm-seven.vercel.app)
+**🌐 Live Demo:** [project-umkm-seven.vercel.app] [(https://vercel.com/candra2006s-projects/keripik-singkong-candra/7n4qjCxR5GYeVPV78YMPzYFk83e2)](https://keripik-singkong-candra.vercel.app/)
 
 ## ⚡ Fitur Unggulan
 
