@@ -121,15 +121,4 @@ CANDRA/
 
 ---
 
-## 🎓 Learning Outcomes
-
-Project ini mencakup konsep pemrograman web:
-- ✅ HTML5 semantic & forms
-- ✅ CSS3 responsive & animations  
-- ✅ JavaScript: DOM, Events, Functions, Arrays, Loops, Conditionals
-- ✅ Form validation & LocalStorage
-- ✅ User experience & feedback system
-
----
-
 **📝 Developed for:** Tugas Akhir Pemrograman WEB-I  
