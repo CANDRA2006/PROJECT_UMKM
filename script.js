@@ -1,6 +1,6 @@
 // Data UMKM
 const namaUMKM = "Keripik Singkong Candra";
-const pemilikUMKM = "Bapak Candra";
+const pemilikUMKM = "Candra";
 const tahunBerdiri = 2025;
 const lokasiUMKM = "Pekalongan, Jawa Tengah";
 
