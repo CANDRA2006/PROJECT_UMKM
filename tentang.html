@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
   <title>Tentang - Keripik Singkong Candra</title>
 </head>
 <body>
@@ -42,61 +41,67 @@
         </div>
     </section>
 
-  <!-- Bagian Produk -->
-  <section id="produk" class="section">
+ <!-- Form Webinar Section -->
+  <section class="webinar-section">
     <div class="container">
-      <h2>Produk Unggulan Kami</h2>
-      <div class="products-grid">
-
-        <!-- Produk 1 -->
-        <div class="product-card">
-          <img src="Assets/Original.jpg" alt="Keripik Singkong Original" width="300" height="200">
-          <h3>Keripik Singkong Original</h3>
-          <p>Keripik singkong dengan rasa manis alami yang gurih dan renyah.</p>
-          <p><strong>Rp 15.000 / bungkus</strong></p>
-          <button class="btn">Pesan Sekarang</button>
+      <h2>Daftar Webinar Promosi Produk</h2>
+      <div class="form-container">
+        <div class="success-message" id="successMessage">
+          <i class="fas fa-check-circle"></i> Pendaftaran berhasil! Kami akan mengirimkan detail webinar ke email Anda.
         </div>
+        
+        <form id="webinarForm" novalidate>
+          <div class="form-group">
+            <label for="namaLengkap">Nama Lengkap <span class="required">*</span></label>
+            <input type="text" id="namaLengkap" name="namaLengkap" placeholder="Masukkan nama lengkap Anda">
+            <div class="error-message" id="errorNama"></div>
+          </div>
 
-        <!-- Produk 2 -->
-        <div class="product-card">
-          <img src="Assets/Balado.jpg" alt="Keripik Singkong Balado" width="300" height="200">
-          <h3>Keripik Singkong Balado</h3>
-          <p>Perpaduan sempurna antara manis dan pedas dengan bumbu rahasia.</p>
-          <p><strong>Rp 16.000 / bungkus</strong></p>
-          <button class="btn">Pesan Sekarang</button>
-        </div>
+          <div class="form-group">
+            <label for="email">Email <span class="required">*</span></label>
+            <input type="email" id="email" name="email" placeholder="contoh@email.com">
+            <div class="error-message" id="errorEmail"></div>
+          </div>
 
-        <!-- Produk 3 -->
-        <div class="product-card">
-          <img src="Assets/Bawang.jpg" alt="Keripik Singkong Bawang" width="300" height="200">
-          <h3>Keripik Singkong Bawang</h3>
-          <p>Aroma bawang yang harum dan rasa gurih membuatnya sulit dilupakan.</p>
-          <p><strong>Rp 17.000 / bungkus</strong></p>
-          <button class="btn">Pesan Sekarang</button>
-        </div>
+          <div class="form-group">
+            <label for="noHp">No HP <span class="required">*</span></label>
+            <input type="text" id="noHp" name="noHp" placeholder="08123456789">
+            <div class="error-message" id="errorHp"></div>
+          </div>
 
-        <!-- Produk 4 -->
-        <div class="product-card">
-          <img src="Assets/Keju.jpg" alt="Keripik Singkong Keju" width="300" height="200">
-          <h3>Keripik Singkong Keju</h3>
-          <p>Taburan keju premium yang creamy dan lezat.</p>
-          <p><strong>Rp 18.000 / bungkus</strong></p>
-          <button class="btn">Pesan Sekarang</button>
-        </div>
+          <div class="form-group">
+            <label for="topikWebinar">Pilihan Topik Webinar <span class="required">*</span></label>
+            <select id="topikWebinar" name="topikWebinar">
+              <option value="">-- Pilih Topik Webinar --</option>
+              <option value="strategi-pemasaran">Strategi Pemasaran Produk UMKM</option>
+              <option value="branding-produk">Membangun Brand Produk Lokal</option>
+              <option value="distribusi-efektif">Distribusi Produk yang Efektif</option>
+              <option value="digital-marketing">Digital Marketing untuk UMKM</option>
+              <option value="inovasi-produk">Inovasi dan Pengembangan Produk</option>
+            </select>
+            <div class="error-message" id="errorTopik"></div>
+          </div>
 
-        <!-- Produk 5 -->
-        <div class="product-card">
-          <img src="Assets/Jagung.jpg" alt="Keripik Singkong Jagung" width="300" height="200">
-          <h3>Keripik Singkong Jagung</h3>
-          <p>Rasa jagung yang gurih dan membekas di lidah.</p>
-          <p><strong>Rp 18.000 / bungkus</strong></p>
-          <button class="btn">Pesan Sekarang</button>
-        </div>
+          <div class="form-group">
+            <div class="checkbox-group">
+              <input type="checkbox" id="persetujuan" name="persetujuan">
+              <label for="persetujuan">
+                Saya menyetujui syarat dan ketentuan yang berlaku serta bersedia menerima informasi mengenai webinar <span class="required">*</span>
+              </label>
+            </div>
+            <div class="error-message" id="errorPersetujuan"></div>
+          </div>
 
+          <button type="submit" class="submit-btn">
+            <i class="fas fa-paper-plane"></i> Daftar Sekarang
+          </button>
+        </form>
       </div>
     </div>
   </section>
 
+  <script src="tentang.js"></script>
+  
   <footer>
     <div class="container">
       <p>&copy; 2025 Keripik Singkong Candra. Semua hak cipta dilindungi.</p>
